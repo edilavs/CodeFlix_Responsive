@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #0b2447;
+}
+
+header,footer{
+    background-color: #19376D;
+}
+
+header ul li a{
+    font-size: 1.1rem;
+}
+
+header ul li a:hover{
+    opacity: 0.7;
+}
+
+#quickFilter{
+    background-color: #2F4B7B;
+}
+
+.bg-quick-filter{
+    background-color: #2F4B7B;
+}
+
+#quickFilter ul li a:hover{
+    opacity: 0.7;
+}
+
+.search-input{
+    /* border: none; */
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none !important;
+    background: transparent;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.search-input::placeholder{
+    color: #fff;
+
+}
+
+/* Custom card's css */
+
+.cf-card{
+    padding: 1rem;
+    background-color: #2F4B7B;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cf-card-header{
+    border-bottom: 1px solid #fff;
+    padding:0.2rem;
+}
+
+.cf-card-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    
+}
+
+.cf-card-title h3{
+    font-size: 1.25rem !important;
+}
+
+.cf-card-body{
+    padding: 1rem 0;
+}
+
+.cf-card-body ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+.cf-card-body ul li{
+    padding: 0.1rem 0;
+}
+
+.cf-card-body ul li i{
+    color: #fff;
+    margin-right: 10px;
+}
+
+.cf-card-body ul li a{
+    color: #fff;
+}
+
+.cf-card-body ul li a:hover{
+    opacity: 0.7;
+}
+
+.cf-card-body-item{
+    margin: 10px 0;
+}
+
+
+
+.cf-select{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    width: 100%;
+    color: #fff;
+}
+
+.cf-card-footer{
+    border-top:1px solid #fff;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cf-select option{
+    color: #000;
+}
+
+.cf-button{
+    background-color:#19376D ;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.cf-button:hover{
+    background-color:#1C2D49 ;
+    /* opacity: 0.7; */
+}
+
+.cf-film{
+    background-color: #2F4B7B;
+    position: relative;
+}
+
+.cf-film:hover{
+    cursor: pointer;
+}
+.cf-film-play{
+    display: none;
+}
+.cf-film-play i{
+    font-size:7rem;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.cf-film:hover img{
+    opacity: 0.7;
+}
+
+.cf-film:hover .cf-film-play{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.cf-film:hover  .cf-film-desc{
+    position: absolute;
+    bottom: 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    gap: 10px;
+    background-color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cf-film-desc span{
+    color: #000 !important;
+}
+
+.ul-pagination li{
+    height: 2rem;
+    padding: 0 0.5rem;
+    background-color: #2F4B7B;
+    display: flex;
+    align-items: center;
+    
+}
+
+.ul-pagination li a{
+    color: #fff;
+}
+
+.ul-pagination li:hover{
+    background-color: #fff;
+}
+
+.ul-pagination li:hover a{
+    color: #000;
+}
+
+#mainSection{
+    padding-bottom: 4rem;
+}
+
+.admin-footer-sticky{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
